@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+    <defName>NamerPersonTaurus</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[TaurusFirst] [TaurusLast] </li>
+      </rulesStrings>
+      <rulesFiles>
+	  <li>TaurusFirst->TaurusNames/TaurusFirst</li>
+	  <li>TaurusLast->TaurusNames/TaurusLast</li>
+	  </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>
