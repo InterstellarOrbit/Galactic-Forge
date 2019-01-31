@@ -3,7 +3,7 @@
 	<name>Galactic Forge</name>
 	<author>DizzyCrash</author>
 	<url>N/A</url>
-    <targetVersion>1.0.0</targetVersion>
+    <supportedVersions>1.0.0</supportedVersions>
 	<description>			
 	Adds custom races.
 	
