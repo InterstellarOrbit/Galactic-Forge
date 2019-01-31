@@ -24,64 +24,127 @@
     <titleShort>CaveTender</titleShort>
     <baseDescription>While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.</baseDescription>
     <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
 	   <li>
         <defName>Cooking</defName>
-        <amount></amount>
+        <amount>4</amount>
       </li>
 	  <li>
         <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Medicine</defName>
-        <amount></amount>
+        <amount>3</amount>
       </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
+    <defName>TaurusDigger</defName>
+    <title>Digger</title>
+    <titleShort>Digger</titleShort>
+    <baseDescription>NAME and HIS tribe carved their home deep into the side of a mountain. NAME feels most at home picking through rock and shoring up cave walls.</baseDescription>
+    <skillGains>
+	   <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount></amount>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
+    <defName>TaurusGatherer</defName>
+    <title>Gatherer</title>
+    <titleShort>Gatherer</titleShort>
+    <baseDescription>NAME is a master gatherer. HECAP can find food in the most barren of places using HIS deep knowledge of plants, roots, and berries.</baseDescription>
+    <skillGains>
+	  <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
+    <defName>TaurusLoner</defName>
+    <title>Loner</title>
+    <titleShort>Loner</titleShort>
+    <baseDescription>NAME never much liked the tribal council or the yearly festivals. HECAP prefers the open plain and the lonely whistle of wind through the rocks. HE visits HIS tribe from time to time, but for the most part HE takes care of HIMself using HIS own survival skills.</baseDescription>
+    <skillGains>
+	   <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
       </li>
 	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
+        <amount>3</amount>
       </li>
     </skillGains>
 	 <workDisables>
-      <li></li>
+      <li>Social</li>
     </workDisables>
   </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
+    <defName>TaurusMuffaloShaman</defName>
+    <title>MuffaloShaman</title>
+    <titleShort>MuffaloShaman</titleShort>
+    <baseDescription>Because of HIS quiet wisdom and great strength, NAME became the spiritual leader for a nomadic tribe that followed the herds of roaming muffalo.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
+    <defName>TaurusShadowShaman</defName>
+    <title>ShadowShaman</title>
+    <titleShort>ShadowShaman</titleShort>
+    <baseDescription>When the monsters of fire came from the sky, NAME was called upon by HIS tribe to guide them into battle. NAME made use of medicine and rituals to inspire and lead the warriors of many tribes against the invaders. The pirates were forced to retreat without capturing a single slave.</baseDescription>
+    <skillGains>
+	   <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+	   <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
+    <defName>TaurusLoreKeeper</defName>
+    <title>LoreKeeper</title>
+    <titleShort>LoreKeeper</titleShort>
+    <baseDescription>NAME was one of a long line of lore keepers in HIS tribe. Every night around the fire, HE would pass on ancient knowledge and helpful wisdom through stories.</baseDescription>
     <skillGains>
       <li>
         <defName>Animals</defName>
@@ -121,310 +184,11 @@
       </li>
 	  <li>
         <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Social</defName>
-        <amount></amount>
-      </li>
-    </skillGains>
-	 <workDisables>
-      <li></li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Cooking</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
-      </li>
-    </skillGains>
-	 <workDisables>
-      <li></li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Cooking</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
-      </li>
-    </skillGains>
-	 <workDisables>
-      <li></li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Cooking</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
-      </li>
-    </skillGains>
-	 <workDisables>
-      <li></li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Cooking</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
-      </li>
-    </skillGains>
-	 <workDisables>
-      <li></li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="TaurusAdultBase">
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Artistic</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Construction</defName>
-        <amount></amount>
-      </li>
-	   <li>
-        <defName>Cooking</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Growing</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount></amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount></amount>
-      </li>
-	  <li>
-        <defName>Social</defName>
-        <amount></amount>
+        <amount>3</amount>
       </li>
     </skillGains>
 	 <workDisables>
